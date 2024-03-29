@@ -1,0 +1,23 @@
+@import "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+
+.mapContainer {
+  position: relative;
+  padding-top: 1rem;
+  width: 95%;
+  margin: 0 auto;
+}
+.map {
+  width: 100%;
+  height: 95vh;
+  border-radius: 20px;
+}
+:global(.leaflet-popup .leaflet-popup-content-wrapper) {
+  background-color: #1f2f3f;
+  color: #fff;
+}
+:global(.leaflet-popup .leaflet-popup-tip) {
+  background: #1f2f3f;
+}
+:global(.leaflet-popup .leaflet-popup-close-button span) {
+  color: #fff;
+}
