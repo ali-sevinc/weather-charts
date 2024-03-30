@@ -24,7 +24,7 @@ export default function ChartModal({ open, children, onClose }: PropsType) {
     >
       {children}
       <button
-        className="absolute text-xl right-4 top-1 focus:outline-none px-2 hover:ring-1 rounded-full"
+        className="absolute text-xl right-4 top-1 duration-200 hover:ring-red-400 focus:outline-none px-2 hover:ring-1 rounded-full"
         onClick={onClose}
       >
         X

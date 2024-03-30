@@ -93,7 +93,7 @@ export default function App() {
         {data && status === "idle" && (
           <>
             {locationDetails.counry && (
-              <div className="text-center px-10 space-y-4">
+              <div className="text-center py-4 px-4 sm:px-10 space-y-4">
                 <h2 className="text-base sm:text-xl font-semibold">
                   {locationDetails.display_name}
                 </h2>

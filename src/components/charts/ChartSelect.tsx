@@ -16,9 +16,15 @@ export default function ChartSelect() {
   }
 
   return (
-    <div className="flex items-center gap-2 justify-center text-sm sm:text-xl">
-      <label htmlFor="chart-select">Select Chart</label>
-      <select id="chart-select" onChange={handleChange}>
+    <div className="flex items-center gap-2 justify-center text-sm sm:text-xl ">
+      <label htmlFor="chart-select" className="shadow px-2 py-1 rounded">
+        Select Chart
+      </label>
+      <select
+        id="chart-select"
+        onChange={handleChange}
+        className="px-2 py-1 rounded shadow"
+      >
         <option value="temperature">Temperature</option>
         <option value="relativeHumidity">Relative Humidity</option>
         <option value="wind">Wind Speed</option>
