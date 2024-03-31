@@ -34,7 +34,7 @@ export default function Map() {
 
   return (
     <div className={styles.mapContainer}>
-      <div className="absolute right-0 sm:right-2 top-[16px] sm:top-6 z-[999] px-4 py-6 bg-slate-600 sm:max-w-[24rem] rounded-t-[20px] text-center text-slate-50 sm:rounded-xl w-full max-h-[30%]">
+      <div className="absolute  rigt-0 sm:right-6 top-[16px] sm:top-6 z-[999] px-4 py-6 bg-slate-600 sm:max-w-[24rem] rounded-t-[20px] text-center text-slate-50 sm:rounded-xl w-full max-h-[30%]">
         <h1 className="text-2xl font-semibold pb-4">
           Welcome to WeatherCharts
         </h1>
